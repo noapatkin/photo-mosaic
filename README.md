@@ -23,7 +23,9 @@ Motion Smoothing: Applies a Gaussian temporal filter to the y-axis displacement 
 
 Dynamic Canvas Mapping: Calculates global dimensions based on cumulative motion to ensure no data is lost during the reconstruction.
 
-🚀 How it WorksPreprocessing: Extracts frames from the input video.Feature Matching: Calculates the Median (dx, dy) shift between consecutive frames.
+🚀 How it Works
+
+Preprocessing: Extracts frames from the input video.Feature Matching: Calculates the Median (dx, dy) shift between consecutive frames.
 
 Slit Extraction: For a given "view index," it crops a strip of width from each frame.
 
